@@ -37,6 +37,7 @@ The framework is evaluated across multiple game environments to demonstrate gene
 
 ## Project Structure
 
+```
 dl_demo/
 │
 ├── dlo_demo.py
@@ -55,6 +56,8 @@ dl_demo/
 │
 ├── README.md
 └── LICENSE
+```
+
 
 ---
 
@@ -62,19 +65,19 @@ dl_demo/
 
 1. Clone the repository
 
-git clone https://github.com/KruthiSriSai/Dynamic-DORL-for-GVGP.git
+   git clone https://github.com/KruthiSriSai/Dynamic-DORL-for-GVGP.git
 
-cd Dynamic-DORL-for-GVGP
+   cd Dynamic-DORL-for-GVGP
 
 2. Create virtual environment (recommended)
 
-python -m venv venv
+   python -m venv venv
 
-venv\Scripts\activate
+   venv\Scripts\activate
 
 3. Install dependencies
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ---
 
@@ -82,25 +85,25 @@ pip install -r requirements.txt
 
 ### Train an agent
 
-python dlo_demo.py train
+   python dlo_demo.py train
 
 ### Evaluate an agent
 
-python dlo_demo.py eval
+   python dlo_demo.py eval
 
-For other environments:
+### For other environments:
 
-python lunarlander_dlo.py train  
-python lunarlander_dlo.py eval  
+   python lunarlander_dlo.py train  
+   python lunarlander_dlo.py eval  
 
-python hillclimb_dlo.py train  
-python hillclimb_dlo.py eval  
+   python hillclimb_dlo.py train  
+   python hillclimb_dlo.py eval  
 
-python jetpack_dlo.py train  
-python jetpack_dlo.py eval  
+   python jetpack_dlo.py train  
+   python jetpack_dlo.py eval  
 
-python subway_dlo.py train  
-python subway_dlo.py eval  
+   python subway_dlo.py train  
+   python subway_dlo.py eval  
 
 ---
 
@@ -129,9 +132,10 @@ Pre-trained PPO models are provided in the repository.
 
 ---
 
-## Author
+## Authors
 
 Kruthi Sri Sai
+Umesh Yenduru
 Undergraduate Major Project  
 
 ---

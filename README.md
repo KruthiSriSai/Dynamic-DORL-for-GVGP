@@ -134,9 +134,8 @@ Pre-trained PPO models are provided in the repository.
 
 ## Authors
 
-Kruthi Sri Sai
-
-Umesh Yenduru
+Kruthi Sri Sai  
+Umesh Yenduru  
 
 Undergraduate Major Project  
 

@@ -1,0 +1,6 @@
+stable-baselines3
+gym
+torch
+numpy
+opencv-python
+imageio     
